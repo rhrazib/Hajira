@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Hajira</string>
+    <string name="title_attendance">Attendance</string>
+    <string name="back">Back</string>
+
+    <string name="step_office_context">STEP 1: OFFICE CONTEXT</string>
+    <string name="office_hint">To mark your attendance, ensure your current office location is correctly identified.</string>
+    <string name="set_office_location">Set Office Location</string>
+    <string name="no_office_yet">No office set yet</string>
+
+    <string name="caption_away">AWAY</string>
+    <string name="caption_no_office">NO OFFICE</string>
+    <string name="caption_searching">SEARCHING</string>
+
+    <string name="chip_in_range">IN RANGE</string>
+    <string name="chip_out_of_range">OUT OF RANGE</string>
+    <string name="chip_office_not_set">OFFICE NOT SET</string>
+    <string name="chip_waiting_gps">WAITING FOR GPS</string>
+    <string name="chip_weak_signal">WEAK SIGNAL</string>
+    <string name="chip_mock_blocked">MOCK LOCATION</string>
+
+    <string name="hint_set_office">Set your office location to get started.</string>
+    <string name="hint_need_access">Location access is needed to measure the distance.</string>
+    <string name="hint_getting_location">Getting your location…</string>
+    <string name="hint_mock_blocked">Mock locations are not accepted.</string>
+    <string name="hint_weak_signal">GPS accuracy is low (±%1$d m). Check-in unlocks when the signal improves.</string>
+    <string name="hint_in_zone">You are inside the %1$d m zone.</string>
+    <string name="hint_out_of_range">You are %1$s away from the office. Move within %2$d meters of the designated office location to enable check-in.</string>
+
+    <string name="btn_mark_attendance">Mark Attendance</string>
+    <string name="btn_attendance_marked">Attendance Marked</string>
+    <string name="btn_reset_demo">Reset today\'s check-in (demo)</string>
+    <string name="footer_checked_in_at">CHECKED IN AT %1$s</string>
+    <string name="footer_window">AVAILABLE %1$s - %2$s</string>
+
+    <string name="banner_denied">Location permission is needed to measure your distance.</string>
+    <string name="banner_blocked">Location permission is blocked. Enable it from app settings.</string>
+    <string name="banner_approximate">Precise location is required. Allow \"Precise\" in app settings.</string>
+    <string name="banner_gps_off">GPS is switched off.</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_turn_on">Turn on</string>
+
+    <string name="msg_office_saved">Office location saved.</string>
+    <string name="msg_no_fix">Couldn\'t get a GPS fix. Please try again.</string>
+    <string name="msg_weak_signal">GPS is only accurate to ±%1$d m. Move to open sky and retry.</string>
+    <string name="msg_mock_blocked">Mock locations aren\'t allowed.</string>
+    <string name="msg_permission_missing">Turn on location access first.</string>
+    <string name="msg_failure">Something went wrong. Please try again.</string>
+    <string name="msg_checked_in">Attendance marked. Have a good day!</string>
+    <string name="msg_out_of_range">You are %1$s away from the office.</string>
+    <string name="msg_window_closed">Check-in is closed right now.</string>
+    <string name="msg_already_marked">You already checked in today.</string>
+    <string name="msg_office_not_set">Set your office location first.</string>
+    <string name="msg_check_in_reset">Today\'s check-in was reset.</string>
+</resources>
