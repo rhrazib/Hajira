@@ -54,7 +54,7 @@ every change.
 ## How to run
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/rhrazib/Hajira.git
 cd Hajira
 ./gradlew assembleDebug        # or open the folder in Android Studio (Koala+ / JDK 17)
 ./gradlew installDebug         # with a device or emulator connected
@@ -71,7 +71,7 @@ the pin ~100 m away to see *Out of range*, and back to unlock check-in.
 
 ## Download
 
-Signed release APK (Android 8.0+): see the [Releases page](https://github.com/<your-username>/Hajira/releases/latest).
+Signed release APK (Android 8.0+): see the [Releases page](https://github.com/rhrazib/Hajira/releases/latest).
 
 ## Tests
 
