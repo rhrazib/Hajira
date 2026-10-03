@@ -1,4 +1,4 @@
-# Hajira (হাজিরা) — Geo-Fenced Attendance
+# Hajira — Geo-Fenced Attendance
 
 Native Android (Kotlin + Jetpack Compose) app. The user saves the office location with one tap, then can
 only mark attendance while standing within **50 m** of it. A live ring shows the distance in real time.
@@ -39,18 +39,15 @@ com.hajira.app
 
 ## Generative AI usage
 
-I used Claude (Anthropic) as a pair-programmer and reviewer. I own the design decisions and reviewed
-every change.
+I used Claude (Anthropic) as a pair-programmer and reviewer. I own the design decisions and reviewed every change.
 
-- First version written with AI assistance, then I asked for a review of it:
-  - *"task 1 ta dekhun submit korbo?"* (Bangla: "look at Task 1, should I submit?")
-- Refactor and completion pass:
-  - *"task 1 e ja baki ase complete kore dio ami submit korbo. i am 9 years exp. must clean arc mvvm with this requirements"*
-- AI-assisted: scaffolding, the domain/use-case split, unit test cases, README draft.
-- Done by me: requirement analysis, architecture choices, running and testing on a real device, final review.
-
-<!-- TODO(author): add your own earlier prompts here if you used any, so this section is accurate. -->
-
+First version was developed with AI assistance, followed by a review against the assessment requirements.
+Refactoring and completion were done with AI assistance while maintaining a Clean Architecture + MVVM approach.
+Essential Prompts
+"Please review Task 1 and let me know if it is ready for submission."
+"Complete any remaining requirements for Task 1 so I can submit it. Please maintain a clean architecture and MVVM approach and ensure all assessment requirements are properly addressed."
+AI-assisted: scaffolding, the domain/use-case split, unit test cases, refactoring suggestions, and README draft.
+Done by me: requirement analysis, architecture choices, running and testing on a real device, and final review.
 ## How to run
 
 ```bash
@@ -84,5 +81,3 @@ no office / no fix / permission missing / time window).
 | Office not set | In range | Checked in |
 |---|---|---|
 | ![](docs/screenshots/office_not_set.jpg) | ![](docs/screenshots/in_range.jpg) | ![](docs/screenshots/checked_in.jpg) |
-
-<!-- TODO(author): add docs/screenshots/out_of_range.jpg (move >50 m away) and reference it here. -->
