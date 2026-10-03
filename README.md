@@ -39,15 +39,25 @@ com.hajira.app
 
 ## Generative AI usage
 
-I used Claude (Anthropic) as a pair-programmer and reviewer. I own the design decisions and reviewed every change.
+I used Claude (Anthropic) as a pair-programming and review tool during the assessment. I remained responsible for the implementation, architecture, testing, and final engineering decisions.
 
-First version was developed with AI assistance, followed by a review against the assessment requirements.
-Refactoring and completion were done with AI assistance while maintaining a Clean Architecture + MVVM approach.
-Essential Prompts
+AI assistance was used during development for:
+
+Initial scaffolding and implementation suggestions
+Reviewing the Clean Architecture + MVVM structure
+Identifying missing assessment requirements
+Refactoring suggestions
+Generating and improving unit-test cases
+README drafting and documentation improvements
+
+I reviewed and validated the generated suggestions, adapted them to the project requirements, and tested the final implementation on a real Android device.
+
+Essential prompts
 "Please review Task 1 and let me know if it is ready for submission."
-"Complete any remaining requirements for Task 1 so I can submit it. Please maintain a clean architecture and MVVM approach and ensure all assessment requirements are properly addressed."
-AI-assisted: scaffolding, the domain/use-case split, unit test cases, refactoring suggestions, and README draft.
-Done by me: requirement analysis, architecture choices, running and testing on a real device, and final review.
+"Complete any remaining requirements for Task 1. Please maintain a clean architecture and MVVM approach and ensure all assessment requirements are properly addressed."
+
+The final architecture, requirement interpretation, implementation decisions, testing, and submission review were my responsibility.
+
 ## How to run
 
 ```bash
